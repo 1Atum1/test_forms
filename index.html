@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>test mos.ru</title>
+</head>
+<body>
+
+<section class="main">
+	<div class="left-column column-block">
+		<h3>Ваши данные</h3>
+		<form action="">
+			<div class="input-wrapper">
+				<div class="main-point"></div>
+				<input type="text" placeholder="Введите Ф. И. О.">
+			</div>
+			<div class="input-wrapper">
+				<div class="pass input-title">Пароль</div>
+				<div class="eye"></div>
+				<div class="main-point middle"></div>
+				<input id="password" type="password">
+			</div>
+			<div class="input-wrapper">
+				<div class="email input-title">Email</div>
+				<div class="main-point"></div>
+				<input type="text">
+			</div>
+			<div class="input-wrapper">
+				<select name="city" id="">
+				<option class="gray" value="mos">Город</option>
+				<option value="mos">Москва</option>
+				<option value="sp">Санкт-Петербург</option>
+				<option value="kaz">Казань</option>
+				<option value="sam">Самара</option>
+				<option value="vlad">Владивосток</option>
+			</select>
+			</div>
+			<div class="input-wrapper">
+				<div class="phone input-title">Телефон</div>
+				<input id="phone" type="text" value="+">
+			</div>
+		</form>
+		<div class="checkbox">
+			<div class="default">Я - парень</div>
+			<label for="che" class="switch">
+				<input id="che" type="checkbox">
+				<span class="slider round"></span>
+			</label>
+			<div class="womanchecked notchecked">Я - девушка</div>
+		</div>
+	</div>
+	<div class="right-column column-block">
+		<h3>Важно знать!</h3>
+		<div class="top-block">
+			<img src="files/img/mask.png" alt="">
+			<div class="right">
+				<ol>
+					<li><p>Развивайтесь<br> не смотря ни на что</p></li>
+					<li><p>Не повторяйте за тем,<br> кто повторяет</p></li>
+				</ol>
+
+
+			</div>
+		</div>
+		<div class="mid-block">
+			<div class="file-upload">
+				<label>
+					<input type="file" name="file">
+					<span>Загрузить фото</span>
+
+				</label>
+				<div class="rectangle"></div>
+			</div>
+		</div>
+		<div class="bottom-block">
+			<input id="rules" type="checkbox">
+			<label for="rules">Я прочитал и соглашаюсь с <a href="/">правилами</a> участия в акции</label>
+			<div class="button-wrapper">
+				<a href="">
+					<div class="button">Учавствовать</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
